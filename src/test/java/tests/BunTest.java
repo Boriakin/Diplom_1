@@ -25,7 +25,7 @@ public class BunTest {
                 {NAME_RUS, PRICE},
                 {NAME_ENG, PRICE},
                 {null, PRICE},
-                {"", 0}
+                {"", DEVIATION}
         };
     }
 
@@ -35,7 +35,7 @@ public class BunTest {
         assertEquals(name, bun.getName());
         assertEquals(price,
                 bun.getPrice(),
-                0);
+                DEVIATION);
     }
 
 }

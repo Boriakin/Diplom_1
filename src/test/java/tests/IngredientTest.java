@@ -6,8 +6,7 @@ import praktikum.Ingredient;
 import praktikum.IngredientType;
 
 import static org.junit.Assert.assertEquals;
-import static tests.base.ConstantsForTests.INGREDIENT_MUSTARD;
-import static tests.base.ConstantsForTests.INGREDIENT_PRICE;
+import static tests.base.ConstantsForTests.*;
 
 public class IngredientTest {
 
@@ -20,7 +19,7 @@ public class IngredientTest {
 
     @Test
     public void getPriceTest() {
-        assertEquals(INGREDIENT_PRICE, ingredient.getPrice(), 0);
+        assertEquals(INGREDIENT_PRICE, ingredient.getPrice(), DEVIATION);
     }
 
     @Test

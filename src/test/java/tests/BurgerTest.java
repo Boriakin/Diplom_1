@@ -60,7 +60,7 @@ public class BurgerTest {
         Mockito.when(ingredientOne.getPrice()).thenReturn(INGREDIENT_PRICE);
         burger.addIngredient(ingredientOne);
         float expectedPrice = BUN_PRICE * 2 + INGREDIENT_PRICE;
-        assertEquals(expectedPrice, burger.getPrice(), 0);
+        assertEquals(expectedPrice, burger.getPrice(), DEVIATION);
     }
 
     @Test

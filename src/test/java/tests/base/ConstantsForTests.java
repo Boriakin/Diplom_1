@@ -10,4 +10,5 @@ public class ConstantsForTests {
     public static final float PRICE = 1.0f;
     public static final String NAME_RUS = "русский";
     public static final String NAME_ENG = "english";
+    public static final float DEVIATION = 0;
 }
